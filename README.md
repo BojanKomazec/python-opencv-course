@@ -4,4 +4,4 @@
 ## Useful JupyterLab keyboard shortcuts
 
 SHIFT + TAB = open Python documentation about function (when mouse hovers the function)
-SHIFT + ENTER = execute current cell
+SHIFT + ENTER = execute current cell (`[*]` next to cell means that it is currently executing)
