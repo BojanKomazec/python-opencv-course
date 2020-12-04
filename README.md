@@ -1,5 +1,8 @@
 # python-opencv-course
-"Python for Computer Vision with OpenCV and Deep Learning" Udemy course
+"Python for Computer Vision with OpenCV and Deep Learning" 2020 Udemy course by Jose Portilla.
+
+These are my course notes and comments. I do not own syllabus, material or resources in this repository.
+
 
 ## Useful JupyterLab keyboard shortcuts
 
