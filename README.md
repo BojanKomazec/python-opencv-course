@@ -46,9 +46,22 @@ IPython includes a kernel for Python code.
 If notebook has an active kernel, a little green dot will be shown next to its name in the left side bar. To shut it down, we can select that ipynb file and click on _Shutdown Kernel_.
 To shut down all kernels: in main menu go to Kernel >> Shutdown All Kernels...
 
-## How to find documentation about package
+## How to find documentation about package/function
 
 Example: we want to find a documentation for `matplotlib.pyplot.figure()` function.
+
+### In Jupyter Notebook
+
+If we have in some cell:
+```
+import matplotlib.pyplot as plt
+```
+...we can then execute some cell after it which contains:
+```
+help(plt.figure)
+```
+
+### In Python interpreter terminal
 
 ```
 (python-cvcourse):~/path/to/workspace$ python
