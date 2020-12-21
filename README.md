@@ -51,8 +51,8 @@ To shut down all kernels: in main menu go to Kernel >> Shutdown All Kernels...
 Example: we want to find a documentation for `matplotlib.pyplot.figure()` function.
 
 ```
-(python-cvcourse):~/path/to/workspace$ python 
-Python 3.6.6 | packaged by conda-forge | (default, Oct 12 2018, 14:43:46) 
+(python-cvcourse):~/path/to/workspace$ python
+Python 3.6.6 | packaged by conda-forge | (default, Oct 12 2018, 14:43:46)
 [GCC 7.3.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import matplotlib.pyplot as plt
