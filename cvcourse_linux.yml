@@ -5,18 +5,30 @@ channels:
   - defaults
 dependencies:
   - jupyter=1.0.0
-  - jupyterlab=0.34.9
-  - keras=2.2.2=0
-  - matplotlib=2.2.3
-  - numpy=1.15.1
+# - jupyterlab=0.34.9
+  - jupyterlab=2.2.9
+# - keras=2.2.2=0
+  - keras=2.3.1
+# - matplotlib=2.2.3
+  - matplotlib=3.3.3
+# - numpy=1.15.1
+  - numpy=1.19.4
 # - opencv=3.4.2
-  - conda-forge::opencv=4.1.0 # B.Komazec added, required for Ubuntu. This cv2 package has Qt as GUI backend.
-  - pandas=0.23.4
-  - pillow=7.2.0 # B.Komazec added, required for PIL
-  - python=3.6.6
-  - scikit-learn=0.19.1
-  - scipy=1.1.0
-  - tensorboard=1.10.0
-  - tensorflow=1.10.0
+# - conda-forge::opencv=4.1.0 # B.Komazec added, required for Ubuntu. This cv2 package has Qt as GUI backend.
+  - conda-forge::opencv=4.5.0
+# - pandas=0.23.4
+  - pandas=1.1.5
+# - pillow=7.2.0 # B.Komazec added, required for PIL
+  - pillow=8.0.1
+# - python=3.6.6
+  - python=3.6.12
+# - scikit-learn=0.19.1
+  - scikit-learn=0.24.0
+# - scipy=1.1.0
+  - scipy=1.5.3
+# - tensorboard=1.10.0
+  - tensorboard=1.14.0
+# - tensorflow=1.10.0
+  - tensorflow=1.14.0
 prefix: /anaconda3/envs/cvcourse
 

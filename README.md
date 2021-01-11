@@ -21,6 +21,18 @@ $ jupyter-lab
 
 3. This should automatically open a new tab in your default browser and load Jupyter Lab index page for the current project (at address `http://localhost:8888/lab`)
 
+## Updating packages
+
+To update all packages in the current conda environment:
+```
+$ conda update --all
+```
+
+To update a package to a specific version and from a specific channel:
+```
+$ conda install -c conda-forge opencv=4.5.0
+```
+
 ## Useful JupyterLab keyboard shortcuts
 
 TAB = autocompletion
